@@ -12,7 +12,7 @@ pipeline {
         }
       }
 
-         stage("Deploy multibranch application on master") { 
+         stage("Deploy multibranch application on master branch") { 
          steps { 
            sh 'echo "deploying application..."'
          }
