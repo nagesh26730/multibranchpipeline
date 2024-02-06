@@ -8,7 +8,7 @@ pipeline {
      
      stage('Test') { 
         steps { 
-           sh 'echo "testing application..."'
+           sh 'echo "testing for multibranch application..."'
         }
       }
 
